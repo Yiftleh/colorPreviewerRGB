@@ -1,0 +1,63 @@
+#fondo_cambiante{
+    background: rgb(0, 0, 0);
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+h1{
+    position: absolute;
+    top: 1vh;
+    left: 5vw;
+}
+input{
+    position: relative;
+
+}
+#selectores{
+    width: 50vw;
+    height: 50vh;
+    margin-top: 5em;
+}
+#selector_rojo{
+    width: 100px;
+}
+#selector_rojo, #selector_rojo--label{
+    color: #f00;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#selector_rojo--label{
+    display: inline-block;
+    width: 50px;
+}
+#selector_verde{
+    width: 100px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#selector_verde, #selector_verde--label{
+    color: #0f0;
+}
+#selector_verde--label{
+    display: inline-block;
+    width: 50px;
+}
+#selector_azul{
+    width: 100px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#selector_azul, #selector_azul--label{
+    color: #00f;
+}
+#selector_azul--label{
+    display: inline-block;
+    width: 50px;
+}
+button{
+    margin: auto;
+    margin-top: 1em;
+    width: 25%;
+}
